@@ -1,7 +1,7 @@
 # The Ultimate Go Study Guide
 
-Ultimate Go Study Guide is a collection of notes for students taking the Ultimate Go class. It is compiled of sample programs along side with line-by-line comments
-to help students follow along the code better.
+The Ultimate Go Study Guide is a collection of notes for students taking the Ultimate Go class.
+It is compiled of sample programs with line-by-line comments to help students follow the code better.
 
 ## Table of Contents 
 
