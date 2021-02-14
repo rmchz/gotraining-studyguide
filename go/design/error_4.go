@@ -71,7 +71,7 @@ func (c *client) TypeAsContext() {
 
 // temporary is declared to test for the existence of the method coming from the net package.
 // Because Temporary is the only behavior we care about. If the concrete type has the method
-// named temporary then this is what we want. We get to stay decoupled and continue to work at the
+// named Temporary then this is what we want. We get to stay decoupled and continue to work at the
 // interface level.
 type temporary interface {
 	Temporary() bool
@@ -109,5 +109,5 @@ func (c *client) BehaviorAsContext() {
 
 // Lesson:
 // Thank to Go Implicit Conversion.
-// We can maintain a level of decopling by creating an interface with methods or behaviors that we only want,
+// We can maintain a level of decoupling by creating an interface with methods or behaviors that we only want,
 // and use it instead of concrete type for type assertion switch. 
