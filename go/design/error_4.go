@@ -74,7 +74,7 @@ func (c *client) TypeAsContext() {
 // named Temporary then this is what we want. We get to stay decoupled and continue to work at the
 // interface level.
 type temporary interface {
-	Temporary() bool
+	temporary() bool
 }
 
 // BehaviorAsContext shows how to check for the behavior of an interface
