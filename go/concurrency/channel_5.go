@@ -103,7 +103,7 @@ func insertTrans(id int) result {
 
 	// Randomize if the insert fails or not.
 	if rand.Intn(10) == 0 {
-		r.err = fmt.Errorf("Unable to insert %d into USER table", id)
+		r.err = fmt.Errorf("Unable to insert %d into TRANS table", id)
 	}
 
 	return r
